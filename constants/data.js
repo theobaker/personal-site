@@ -4,8 +4,8 @@ const userData = {
   designation: "Student",
   // avatarUrl: "/avatar.png",
   avatarUrl: "/newavatar.png",
-  email: "tabsterbaker@gmail.com",
-  phone: "(202) 360-1086",
+  email: "tabsterbaker [at] gmail.com",
+  phone: "Two-oh-two 360-1086",
   address: "Washington, DC // Andover, MA",
   currentBook: "Livewired by David Eagleman",
   projects: [
