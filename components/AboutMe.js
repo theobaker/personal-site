@@ -43,33 +43,41 @@ export default function AboutMe() {
                 Get to know me
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I love expressing myself through writing. Here are some curated pieces from the last few years.
+                So I don't really love fitting into a single category. I'm passionate about a lot of things, from cars to neuroscience to comic books and cooking. If you want some random stuff, this is the 
                 {" "}
                 <a
-                  href={"https://www.chicagotribune.com/opinion/commentary/ct-edit-artificial-intelligence-gpt3-20211002-b2fgsdnznveurkldp2vmojua6e-story.html"}
+                  href={"https://drive.google.com/file/d/1J6sDcGMHgIw9ugtLmW7gqsWyRTUPFrKE/view?usp=sharing"}
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  This
+                  cover
                 </a>{" "}
-                is an op-ed I had published in the Chicago Tribune at age 16. This Axios article exclusively covers
+                to a project I did about Angels in America.
                 {" "}
                 <a
-                href = {"axios.com"}
+                href = {"https://glasser.recipes/"}
                 target = "__blank"
                 className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  research
+                  This
                 </a>{" "}
-                I conducted on 18-29 year olds. Here's an{" "}
+                is a link to a recipe I created in a family recipe book I compiled for all of my relatives. This{" "}
                 <a
-                href = {"axios.com"}
+                href = {"https://drive.google.com/file/d/1mcs9W8NlRdOF6L6tHWU0mpZu2KZ5aCyl/view?usp=sharing"}
                 target = "__blank"
                 className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
-                  op-ed
+                  poster
                 </a>{" "}
-                I wrote about pedagogy in a digital world. 
+                is the first poll I ever fielded – a fifth grade science fair project examining the gender bias of the students at my school versus the general population. (Yes I won a medal). If you want to know me better, my{" "}
+                <a
+                href = {"/writing"}
+                target = "__blank"
+                className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                >
+                  writing
+                </a>{" "}
+                is a great place to go!
               </p>
             </div>
             {/* Social Links */}
@@ -101,7 +109,7 @@ export default function AboutMe() {
                   </p>
                 </a>
               </div>
-              {/* <div className="flex flex-row justify-start items-center">
+              <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
                   className="flex flex-row items-center space-x-4 group"
@@ -112,7 +120,7 @@ export default function AboutMe() {
                     GitHub
                   </p>
                 </a>
-              </div> */}
+              </div>
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.linkedin}
@@ -127,7 +135,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.twitter}
+                  href={userData.socialLinks.instagram}
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
