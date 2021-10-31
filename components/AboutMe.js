@@ -43,7 +43,7 @@ export default function AboutMe() {
                 Get to know me
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                So I don't really love fitting into a single category. I'm passionate about a lot of things, from cars to neuroscience to comic books and cooking. If you want some random stuff, this is the 
+                I'm passionate about a lot of things, from cars to neuroscience to comic books and cooking. If you want some random stuff, this is the 
                 {" "}
                 <a
                   href={"https://drive.google.com/file/d/1J6sDcGMHgIw9ugtLmW7gqsWyRTUPFrKE/view?usp=sharing"}
@@ -61,7 +61,7 @@ export default function AboutMe() {
                 >
                   This
                 </a>{" "}
-                is a link to a recipe I created in a family recipe book I compiled for all of my relatives. This{" "}
+                is a link to an online cookbook I compiled for my family with contributions from my relatives and some original recipes. This{" "}
                 <a
                 href = {"https://drive.google.com/file/d/1mcs9W8NlRdOF6L6tHWU0mpZu2KZ5aCyl/view?usp=sharing"}
                 target = "__blank"
@@ -69,7 +69,7 @@ export default function AboutMe() {
                 >
                   poster
                 </a>{" "}
-                is the first poll I ever fielded – a fifth grade science fair project examining the gender bias of the students at my school versus the general population. (Yes I won a medal). If you want to know me better, my{" "}
+                is the first poll I ever fielded – a fifth grade science fair project examining the gender bias of the students at my school versus the general population. And if you want to know me better, my{" "}
                 <a
                 href = {"/writing"}
                 target = "__blank"
