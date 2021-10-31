@@ -12,7 +12,7 @@ export default function Projects() {
       {/* Grid starts here */}
     </section><section className = "bg-[#F1F1F1] dark:bg-gray-900 flex-items-center justify-center">
         <div className= "max-w-3xl mx-auto py-20 pb-40 grid grid-cols-1 gap-4">
-          <a href= "https://google.com">
+          <a href= "https://www.chicagotribune.com/opinion/commentary/ct-edit-artificial-intelligence-gpt3-20211002-b2fgsdnznveurkldp2vmojua6e-story.html">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               As a high school senior, I'm terrified by our lack of controls over artificial intelligence
@@ -21,7 +21,7 @@ export default function Projects() {
             I share my perspective as a sixteen year old and a researcher encountering the bias and dangerous flaws in NLP on a daily basis.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1BS4Q5yjnbn2RQhWD5jXT8RDYjgNCzdD0/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Iago Lives on K
@@ -30,7 +30,7 @@ export default function Projects() {
             into the cutthroat world of DC politics, this fragment follows Iago in events that take place before the beginning of Othello, establishing his manipulative ways and how he became the psychological torturer he is during the timeline of Othello.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://www.axios.com/gaming-young-people-49b97351-61ed-451d-96ec-99960bb87ab4.html">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Why some young people aren't gaming
@@ -38,7 +38,7 @@ export default function Projects() {
             This Axios article covers a portion of the research I did in the summer of 2021 on 18-29 year olds. The full report, for which I am the sole author, includes 18 slides, 8 unique graphics, numerous interviews, and 3000 words of analysis.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1OD-u609j87A3dM3LhB-K-Bn7JAeqbWdV/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Studying QAnon rhetoric in mainstream Republican Twitter usage
@@ -47,15 +47,15 @@ export default function Projects() {
             Tweets of mainstream House Republicans as well as a brief summation of the methodology. Conclusion: QAnon rhetoric in mainstream messaging increased 200% between 1/2019 and 1/2021, jumping with the release of the Mueller Report.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1NKIWRxnnkGr16_H4aYnADoSoV_XydqN2/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
-              3-chapter Outline for Eleanor: The First Woman President
+              Prologue for Eleanor: The First Woman President
             </div>
-            Attached is the outline for the first 3 chapters of my counterfactual novel in which Eleanor Roosevelt becomes President in 1945. I'm working also on production of a miniseries based on the same concept. Everything beyond the three chapter outline is explicitly confidential : )
+            Attached are the first thousand words for my counterfactual novel in which Eleanor Roosevelt becomes President in 1945. I'm also working simultaneously on production of a miniseries based on the same concept. For obvious reasons I'm not sharing too much publically but reach out to learn more : )
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://phillipian.net/2021/05/07/andover-and-the-digital-forward-future/">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Andover and the Digital-Forward Future
@@ -64,7 +64,7 @@ export default function Projects() {
             as part of the Workshop at Andover, to implement some of its ideas in the real world.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1hnLku3UfLj4ZP01GoL8gqN_7vQOyEf-W/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               The Demagogues’ Club: Martin Dies and the Forgotten War on Democracy
@@ -73,7 +73,7 @@ export default function Projects() {
               He was also a chilling reflection of European dictatorships. Working against Roosevelt in the 1930s, Dies developed an ideology he termed "Americanism" which was equal parts Christian white supremacy and the authoritarianism which would so soon lead to World War II. Dies was successful at dismantling many New Deal programs and yet few know his name.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://www.theexchanged.com/the-curriculum-issue-backend/against-religion">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Against Religion
@@ -82,7 +82,7 @@ export default function Projects() {
             it resulted in the largest ever comment section on an Exchanged article by a significant margin.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1oLmpbE-NP_xnIgzsU2iriHU1PnsD2j5c/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               La Desapareción de Biculturalismo
@@ -90,7 +90,7 @@ export default function Projects() {
             This essay of 1600 words, written exclusively in Spanish, tackles biculturalism in America, speaking from a historical perspective and using the story of my aunt, who grew up a Mexican-American along the border, to talk about the increasing difficulties of living in two cultures at once.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1YcXp5ak1w-X0J84zdq2gRY127w-451sN/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               MAGA: Mass-shootings America, Gun-control Australia
@@ -98,7 +98,7 @@ export default function Projects() {
             This was one of the first well-researched pieces I ever wrote. In Freshman Fall, I interviewed an Australian Member of Parliament and two pre-eminent Gun Control scholars to compare American mass shootings to the regulation Australia had pushed forward so quickly after Port Arthur.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/14Cnh5lh2HYZN3ySLsmIDDatvcay5k4Kz/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               What Would Justice Barrett Mean for the US?
@@ -106,7 +106,7 @@ export default function Projects() {
             This piece, my first for The Revere and indeed my first at Andover, addressed the ramifications of the Amy Coney Barrett hearings which were, at the time, about to begin. I spoke with Richard Primus, a well-regarded scholar from the University of Michigan Law School and former RBG clerk, and Joan Biskupic, the foremost Supreme Court biographer.
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://drive.google.com/file/d/1VocohkJmIfh96sGdh7iqh-EBq2KR2tgb/view?usp=sharing">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Irán Contra: Una Historia Ridicula
@@ -114,7 +114,7 @@ export default function Projects() {
             This was one of my last projects at St. Albans: an hour and a half presentation about Iran Contra given entirely in Spanish. These remain some of the best slides I've ever put together...
           </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://bakerchiefofstaff.wordpress.com/2020/10/22/blog-6-the-delight-of-a-fast-drive/">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Blog 6, The Delight of a Fast Drive
@@ -122,7 +122,7 @@ export default function Projects() {
               This is a selection from my blog where I talk about reconciling my love for cars – a passion I've always had and would be incomplete without – with my distaste for the community.
             </div>
           </a>
-          <a href= "https://google.com">
+          <a href= "https://bakerchiefofstaff.wordpress.com/2021/01/25/blog-13-updown-you-go/">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
               Blog 13, Up (Down) You Go
