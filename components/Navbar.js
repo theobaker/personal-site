@@ -140,13 +140,13 @@ export default function Navbar() {
           <Link href="https://drive.google.com/file/d/1Cg-bs19BCxN5_bZeL_eLuSJhKaHp2iD8/view?usp=sharing">
             <a
               className={`text-base  ${
-                router.asPath === "/contact"
+                router.asPath === "/CV"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
               CV
-              {router.asPath === "/contact" && (
+              {router.asPath === "/CV" && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
