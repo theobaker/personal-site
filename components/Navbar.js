@@ -256,6 +256,16 @@ export default function Navbar() {
             Experience
           </a>
         </Link>
+        <Link href="/writing">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            Writing
+          </a>
+        </Link>
+        <Link href="https://drive.google.com/file/d/1Cg-bs19BCxN5_bZeL_eLuSJhKaHp2iD8/view?usp=sharing">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            CV
+          </a>
+        </Link>
         <Link href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contact
