@@ -191,15 +191,15 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/python.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
+                src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/github.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/bash.svg"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

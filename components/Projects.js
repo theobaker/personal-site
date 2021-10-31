@@ -3,14 +3,137 @@ import userData from "@constants/data";
 
 export default function Projects() {
   return (
-    <section className="bg-white dark:bg-gray-800">
+    <><section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
-          Projects
+          Some Writings.
         </h1>
       </div>
       {/* Grid starts here */}
-      <div className="bg-[#F1F1F1] dark:bg-gray-900">
+    </section><section className = "bg-[#F1F1F1] dark:bg-gray-900 flex-items-center justify-center">
+        <div className= "max-w-3xl mx-auto py-20 pb-40 grid grid-cols-1 gap-4">
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              As a high school senior, I'm terrified by our lack of controls over artificial intelligence
+            </div>
+            I wrote this oped for the Chicago Tribune after spending all summer working with state of the art AI tools.
+            I share my perspective as a sixteen year old and a researcher encountering the bias and dangerous flaws in NLP on a daily basis.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Iago Lives on K
+            </div>
+            This is a short story I wrote about Othello in which Iago scams his way through a state college he hasn't actually enrolled in. Part of a larger piece in which I transplant the characters from the play 
+            into the cutthroat world of DC politics, this fragment follows Iago in events that take place before the beginning of Othello, establishing his manipulative ways and how he became the psychological torturer he is during the timeline of Othello.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Why some young people aren't gaming
+            </div>
+            This Axios article covers a portion of the research I did in the summer of 2021 on 18-29 year olds. The full report, for which I am the sole author, includes 18 slides, 8 unique graphics, numerous interviews, and 3000 words of analysis.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Studying QAnon rhetoric in mainstream Republican Twitter usage
+            </div>
+            This high-level overview covers the findings of my study usining Machine Learning tools to track the influence of QAnon rhetoric on the 
+            Tweets of mainstream House Republicans as well as a brief summation of the methodology. Conclusion: QAnon rhetoric in mainstream messaging increased 200% between 1/2019 and 1/2021, jumping with the release of the Mueller Report.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              3-chapter Outline for Eleanor: The First Woman President
+            </div>
+            Attached is the outline for the first 3 chapters of my counterfactual novel in which Eleanor Roosevelt becomes President in 1945. I'm working also on production of a miniseries based on the same concept. Everything beyond the three chapter outline is explicitly confidential : )
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Andover and the Digital-Forward Future
+            </div>
+            This oped, written for the Phillipian, outlines my pedagogical views about reforming Andover's curriculum to better prepare students for a digital world. I include it here because I'm proud of its message and because I'm working this Spring, 
+            as part of the Workshop at Andover, to implement some of its ideas in the real world.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              The Demagogues’ Club: Martin Dies and the Forgotten War on Democracy
+            </div>
+              This paper encompasses some of my research into Martin Dies, the now-obscure Southern Democrat who created the House Un-American Activities Committee. Dies was responsible for developing tactics of red-baiting and demagoguery which were later employed by McCarthy and are traceable even to Donald Trump. 
+              He was also a chilling reflection of European dictatorships. Working against Roosevelt in the 1930s, Dies developed an ideology he termed "Americanism" which was equal parts Christian white supremacy and the authoritarianism which would so soon lead to World War II. Dies was successful at dismantling many New Deal programs and yet few know his name.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Against Religion
+            </div>
+            I wrote this piece at a church school. Specifically, for a newspaper on the grounds of the largest cathedral in America. This piece, as intended, prompted widespread (and generally productive) dialogue about an often-unquestioned part of our community, and 
+            it resulted in the largest ever comment section on an Exchanged article by a significant margin.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              La Desapareción de Biculturalismo
+            </div>
+            This essay of 1600 words, written exclusively in Spanish, tackles biculturalism in America, speaking from a historical perspective and using the story of my aunt, who grew up a Mexican-American along the border, to talk about the increasing difficulties of living in two cultures at once.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              MAGA: Mass-shootings America, Gun-control Australia
+            </div>
+            This was one of the first well-researched pieces I ever wrote. In Freshman Fall, I interviewed an Australian Member of Parliament and two pre-eminent Gun Control scholars to compare American mass shootings to the regulation Australia had pushed forward so quickly after Port Arthur.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              What Would Justice Barrett Mean for the US?
+            </div>
+            This piece, my first for The Revere and indeed my first at Andover, addressed the ramifications of the Amy Coney Barrett hearings which were, at the time, about to begin. I spoke with Richard Primus, a well-regarded scholar from the University of Michigan Law School and former RBG clerk, and Joan Biskupic, the foremost Supreme Court biographer.
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Irán Contra: Una Historia Ridicula
+            </div>
+            This was one of my last projects at St. Albans: an hour and a half presentation about Iran Contra given entirely in Spanish. These remain some of the best slides I've ever put together...
+          </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Blog 6, The Delight of a Fast Drive
+            </div>
+              This is a selection from my blog where I talk about reconciling my love for cars – a passion I've always had and would be incomplete without – with my distaste for the community.
+            </div>
+          </a>
+          <a href= "https://google.com">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline text-black font-semibold">
+              Blog 13, Up (Down) You Go
+            </div>
+            A blog post reflecting on an Emily Dickinson poem in which I write a series of vignettes about how we all meet our ends.
+          </div>
+          </a>
+        </div>
+      </section></>);
+}
+{/* <div className="bg-[#F1F1F1] dark:bg-gray-900">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
@@ -21,10 +144,7 @@ export default function Projects() {
             />
           ))}
         </div>
-      </div>
-    </section>
-  );
-}
+      </div> */}
 
 const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
