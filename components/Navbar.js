@@ -266,11 +266,6 @@ export default function Navbar() {
             CV
           </a>
         </Link>
-        <Link href="/contact">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Contact
-          </a>
-        </Link>
       </div>
     </div>
   );
