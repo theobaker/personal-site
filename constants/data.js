@@ -7,7 +7,7 @@ const userData = {
   email: "tabsterbaker [at] gmail.com",
   phone: "Two-oh-two 360-1086",
   address: "Washington, DC // Andover, MA",
-  currentBook: "Livewired by David Eagleman",
+  currentBook: "Trillions by Robin Wigglesworth",
   home:{
     description:[
       `Hi there! My name is Theo (he/they) and I'm currently a high school senior.`,
