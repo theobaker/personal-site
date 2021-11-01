@@ -137,7 +137,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="https://drive.google.com/file/d/1Cg-bs19BCxN5_bZeL_eLuSJhKaHp2iD8/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/1ZqsvyP7WENhaCsxRo1znka34M7RfHFCp/view?usp=sharing">
             <a
               className={`text-base  ${
                 router.asPath === "/CV"
