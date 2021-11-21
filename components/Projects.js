@@ -12,6 +12,15 @@ export default function Projects() {
       {/* Grid starts here */}
     </section><section className = "bg-[#F1F1F1] dark:bg-gray-900 flex-items-center justify-center">
         <div className= "max-w-3xl mx-auto py-20 pb-40 grid grid-cols-1 gap-4">
+        <a href= "https://drive.google.com/file/d/1LJChZJXwJHDpj1UEm9IQe0lqvvR2AQk7/view?usp=sharing">
+          <div className= "bg-white p-3 rounded shadow-2xl text-black">
+            <div className = "underline italic text-black font-semibold">
+              First Woman
+            </div>
+            This is result of my most recent independent project. "First Woman" is a novel in which Eleanor Roosevelt becomes President in 1945 instead of Harry Truman. 
+            I spent the last few months researching this historical counterfactual in depth and writing. I'm also working on a corresponding miniseries of the same premise, titled "Mrs. R." I was invited by the Tang Institute to deliver a presentation about my work and hope to continue to push this surprisingly possible, and totally unexplored, alternate history. 
+          </div>
+          </a>
           <a href= "https://www.chicagotribune.com/opinion/commentary/ct-edit-artificial-intelligence-gpt3-20211002-b2fgsdnznveurkldp2vmojua6e-story.html">
           <div className= "bg-white p-3 rounded shadow-2xl text-black">
             <div className = "underline text-black font-semibold">
@@ -45,14 +54,6 @@ export default function Projects() {
             </div>
             This high-level overview covers the findings of my study usining Machine Learning tools to track the influence of QAnon rhetoric on the 
             Tweets of mainstream House Republicans as well as a brief summation of the methodology. Conclusion: QAnon rhetoric in mainstream messaging increased 200% between 1/2019 and 1/2021, jumping with the release of the Mueller Report.
-          </div>
-          </a>
-          <a href= "https://drive.google.com/file/d/1NKIWRxnnkGr16_H4aYnADoSoV_XydqN2/view?usp=sharing">
-          <div className= "bg-white p-3 rounded shadow-2xl text-black">
-            <div className = "underline text-black font-semibold">
-              Prologue for Eleanor: The First Woman President
-            </div>
-            Attached are the first thousand words for my counterfactual novel in which Eleanor Roosevelt becomes President in 1945. I'm also working simultaneously on production of a miniseries based on the same concept. For obvious reasons I'm not sharing too much publically but reach out to learn more : )
           </div>
           </a>
           <a href= "https://phillipian.net/2021/05/07/andover-and-the-digital-forward-future/">
