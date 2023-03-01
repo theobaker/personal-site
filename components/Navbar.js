@@ -85,7 +85,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="https://stanforddaily.com/author/tabaker">
+          <Link href="https://stanforddaily.com/author/tabaker/">
             <a
               className={`text-base  ${
                 router.asPath === "/writing"
