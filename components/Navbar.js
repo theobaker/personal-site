@@ -256,7 +256,7 @@ export default function Navbar() {
             Experience
           </a>
         </Link>
-        <Link href="/writing">
+        <Link href="https://stanforddaily.com/author/tabaker/">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Writing
           </a>
