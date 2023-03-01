@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "/WCKPoland.jpg",
   email: "tabsterbaker [at] gmail.com",
   phone: "Two-oh-two 360-1086",
-  address: "Washington, DC // Stanford, CA",
+  address: "Washington, DC | Stanford, CA",
   currentBook: "Power Failure by Bill Cohan",
   home:{
     description:[
@@ -133,7 +133,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+    "https://drive.google.com/drive/u/0/folders/1FOz4oBVtEm0Zm4AjcCe_urWZvqiheshg",
   socialLinks: {
     instagram: "https://instagram.com/tabsterbaker",
     twitter: "https://twitter.com/tab_delete",
