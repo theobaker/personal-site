@@ -1,16 +1,15 @@
 const userData = {
   githubUsername: "theobaker",
   name: "Theo Baker",
-  designation: "Student",
-  // avatarUrl: "/avatar.png",
-  avatarUrl: "/newavatar.png",
+  designation: "Investigations",
+  avatarUrl: "/WCKPoland.jpg",
   email: "tabsterbaker [at] gmail.com",
   phone: "Two-oh-two 360-1086",
-  address: "Washington, DC // Andover, MA",
-  currentBook: "Trillions by Robin Wigglesworth",
+  address: "Washington, DC // Stanford, CA",
+  currentBook: "Power Failure by Bill Cohan",
   home:{
     description:[
-      `Hi there! My name is Theo (he/they) and I'm currently a high school senior.`,
+      `Hi there! My name is Theo (he/they) and I'm an undergraduate at Stanford University. My reporting has led to an investigation into Stanford's renowned neuroscientist president and made me the youngest ever recipient of the prestigious George Polk Award.`,
       `I love reading, writing, CS, and psychology! I'm a social science researcher with expertise in public opinions and current affairs and I believe in knowing more about the world, whether through anecdote or data (and ideally both).`
     ]
   },
@@ -27,6 +26,48 @@ const userData = {
     currentProjectUrl: "https://andover.edu",
   },
   experience: [
+    {
+      title: "Investigations Editor",
+      company: "The Stanford Daily",
+      year: "2023",
+      companyLink: "https://stanforddaily.com/author/tabaker",
+      desc: "As Investigations Editor, I’ve authored work that led to the first ever Polk Award for a student newspaper. My articles have prompted investigations by Stanford, Science, Cell, and other organizations; plus my journalism has been picked up dozens of times by national news outlets. My very first article was referenced on the front page of the Wall Street Journal. I've broken stories about an reported $30m fraud verdict against a famous genenticist, a \"war on social life\" that has led to a decline in social events of all sorts and an increase in medical emergencies, a man who pretended to be a Stanford student for a year, living in dorms all the while Stanford knew of his presence and did not inform students, and plenty besides that.",
+    },
+    {
+      title: "Organizer",
+      company: "TreeHacks",
+      year: "2023",
+      companyLink: "https://treehacks.com",
+      desc: "I helped run an event for 1,750 college students from around the world, planning and running dozens of workshops, recruiting and working with sponsors like YCombinator and OpenAI, and helping put together a weekend designed for maximum impact in Education, Healthcare, Sustainability, Privacy + Security, New Frontiers, and other areas. We provided $160k in prizes and paid for all of our teams to fly out from around the world to remove as many barriers to entry as possible. Teams had access to hardware, APIs, incredible mentors, and everything they needed to make awesome projects.",
+    },
+    {
+      title: "Teaching Assistant",
+      company: "Stanford University",
+      year: "2023",
+      companyLink: "https://stanford.edu/",
+      desc: "Under CS Professor Jerry Cain, I'm helping to teach CS106S: Coding for Social Good, a class designed to incorporate technical skills with ethical frameworks.",
+    },
+    {
+      title: "Research Assistant",
+      company: "Cyber Policy Center",
+      year: "2022",
+      companyLink: "https://cyber.fsi.stanford.edu/io",
+      desc: "I'm helping Marietje Schaake, the former Dutch representative to the European Parliament, write a book about Cyber Policy.",
+    },
+    {
+      title: "Research Assistant",
+      company: "Stanford Internet Observatory",
+      year: "2022",
+      companyLink: "https://cyber.fsi.stanford.edu/io",
+      desc: "I worked with the Election Integrity Partnership to do real-time election disinformation monitoring and combating during the 2022 midterm season using OSINT tools and working with a phenomenal team of researchers at Stanford and the University of Washington.",
+    },
+    {
+      title: "Volunteer",
+      company: "World Central Kitchen",
+      year: "2022",
+      companyLink: "https://wck.org",
+      desc: "Weeks after I graduated from high school, I got on a plane and flew to the border of Ukraine, volunteering with the World Central Kitchen in Prezmysl, Poland to feed thousands of displaced Ukrainians fleeing Putin's brutal war. Our team prepared up to 7,000 sandwiches and thousands more hot meals each day. I also spent time distributing food at the train station where refugees were arriving from Ukraine and in the converted mall that housed a thousand beds full of mostly women and children.",
+    },
     {
       title: "Independent Researcher",
       company: "Phillips Academy Andover",
@@ -95,8 +136,8 @@ const userData = {
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/tabsterbaker",
-    twitter: "https://twitter.com/genzdata",
-    linkedin: "https://linkedin.com/in/theo-baker-aa3803189/",
+    twitter: "https://twitter.com/tab_delete",
+    linkedin: "https://linkedin.com/in/theo-baker/",
     github: "https://github.com/theobaker",
     facebook: "https://facebook.com/",
   },

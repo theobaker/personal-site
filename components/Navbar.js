@@ -85,7 +85,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/writing">
+          <Link href="https://stanforddaily.com/author/tabaker">
             <a
               className={`text-base  ${
                 router.asPath === "/writing"
@@ -137,7 +137,7 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="https://drive.google.com/file/d/1XfF_cTiupfEj1xXI5PiIKnXmjts__kwY/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/11R-rPPMP3a4wdeCuh-4djFDgCiHDOt2e/view?usp=sharing">
             <a
               className={`text-base  ${
                 router.asPath === "/CV"
@@ -261,7 +261,7 @@ export default function Navbar() {
             Writing
           </a>
         </Link>
-        <Link href="https://drive.google.com/file/d/1Cg-bs19BCxN5_bZeL_eLuSJhKaHp2iD8/view?usp=sharing">
+        <Link href="https://drive.google.com/file/d/11R-rPPMP3a4wdeCuh-4djFDgCiHDOt2e/view?usp=sharing">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             CV
           </a>
