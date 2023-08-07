@@ -4,27 +4,27 @@ const userData = {
   designation: "Investigations",
   avatarUrl: "/WCKPoland.jpg",
   email: "tabsterbaker [at] gmail.com",
-  phone: "Two-oh-two 360-1086",
+  phone: "Available on request",
   address: "Washington, DC | Stanford, CA",
   currentBook: "Power Failure by Bill Cohan",
   home:{
     description:[
-      `Hi there! My name is Theo (he/they) and I'm an undergraduate at Stanford University. My reporting has led to an investigation into Stanford's renowned neuroscientist president and made me the youngest ever recipient of the prestigious George Polk Award.`,
-      `I love reading, writing, CS, and psychology! I'm a social science researcher with expertise in public opinions and current affairs and I believe in knowing more about the world, whether through anecdote or data (and ideally both).`
+      `Hi there! My name is Theo (he/they) and I'm an undergraduate at Stanford University. As an investigative reporter, I've authored a number of national stories — most recently, my reporting into Stanford's billionaire president caused his resignation and made me the youngest ever recipient of the prestigious George Polk Award.`,
+      `I love reading, writing, CS, and psychology! I've been trained as a social science researcher with expertise in public opinions and current affairs; more broadly, I believe in knowing more about the world, whether through anecdote or data (and ideally both).`
     ]
   },
   about: {
     title:
       "I'm a student with a burning curiosity about why we do what we do. Tackling this question has led me from humanities to CS to social science to somewhere in between, using the tools of many trades to answer universal questions.",
     description: [
-      `Recently 18, my writing has been picked up by CNN, AP, LA Times, Washington Post, CBS, Wall Street Journal, Good Morning America, Axios, Science, ABC, Daily Beast, Chicago Tribune, NBC, SF Chronicle, KQED, and more. I've exposed a professor for $30m of fraud, revealed that a man was pretending to be a student and harassing others for a year with Stanford's knowledge, reported on a "war on fun" that has students and administrators worried, and reported on allegedly falsified Alzheimer's research that was once thought worthy of a Nobel.`,
-      `Currently an undergrad at Stanford, I'm having a blast exploring the incredible opportunities available to me. I live and breathe for the bright-minded builder circles that make things just for the hell of it. And at the same time, I'm dedicated to the History, Philosophy, and English classes that ground me in precedent.`,
-      `I'm lucky enough to have built up the technical skills to keep up in techy ventures. TreeHacks, in particular, has been a fantastic experience. Working with a brilliant team of twenty-or-so students, I helped put on an event for 1,750 college students from around the world. Our shared goal is to find brilliant people of all different experience levels and provide them the opportunities to build cool things in cool areas (e.g. Sustainability, Healthcare, Education, etc.). That's why we pay for all of their travel and food expenses, provide hundreds of thousands of dollars in provided hardware and software, run dozens of workshops, and work with our 50+ sponsors to offer $160k in prizes.`,
-      `I'm also a dedicated researcher. I've done work to analyze QAnon rhetoric and compare it to Congressional tweets using NLP tools; I've fielded national polls and published my results in Axios; I've contributed to research on election disinformation and cyber policy efforts; and I've spent countless hours in and out of archives studying the rise of populism in the 20th century.`,
-      `Ultimately, I've been extraordinarily lucky with the opportunities I've had and I hope I've done some cool things with them.`
+      `In the last year, I've written articles that have been viewed millions of times and been picked up by major media including The New York Times, The Washington Post, The Wall Street Journal, and other prominent papers. I've also written guest essays, including one for The New York Times, and appeared on national TV including CNN, MSNBC, PBS NewsHour, Good Morning America, and more.`,
+      `My rigorously-sourced investigations have covered a number of topics. I've written about "Stanford's War on Fun" — the bureaucratic crackdown that has safety advocates, club leaders, and everyday students concerned. I've broken stories about a legendary genentics professor and a $30m fraud judgment Stanford pretended it had never heard of despite participating in the case. I've investigated a man who lived in dorms for a year, pretending to be a student and harassing several women all while Stanford knew about his presence and failed to warn residents. I've discovered missing Title IX data — and shifting excuses about where it went — and holes in Stanford's safety protocols. And so much more.`,
+      `My most consequential, and most time-suckingly intense work, has been a series of investigative pieces about Stanford's now-former-president Marc Tessier-Lavigne, a billionaire neuroscientist. I exposed falsified data in his research and reported on his failures to correct the scientific record over a period of two decades. He resigned as a consequence. For that series of investigative pieces, which included a close look at studies that once claimed to have found the cause and a potential cure for Alzheimer's disease, I became the youngest ever recipient of one of journalism's highest prizes, the George Polk Award. (Past recipients include Bob Woodward and Carl Bernstein, Walter Cronkite, James Baldwin, and many other distinguished jouranlists.)`,
+      `I'm not just a reporter, though. I've done election disinformation research; analyzed QAnon rhetoric and its similarity to tweets by Republican Congressmen; conducted national polling; helped to assemble one of the largest hackathons in the world, TreeHacks; helped teach classes on ethical Computer Science; and taken course material in everything from philosophy to systems engineering to Greek art history.`,
+      `Ultimately, I've been extraordinarily lucky with the opportunities I've had and I hope I've done some cool things with them. Feel free to browse this website to take a look at some of my projects and reach out if you want to connect!`
     ],
-    currentProject: "Graduating High School",
-    currentProjectUrl: "https://andover.edu",
+    currentProject: "Graduating College",
+    currentProjectUrl: "https://stanford.edu",
   },
   experience: [
     {
