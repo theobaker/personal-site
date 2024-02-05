@@ -71,7 +71,7 @@ export default function AboutMe() {
                 </a>{" "}
                 is the first poll I ever fielded – a fifth grade science fair project examining the gender bias of the students at my school versus the general population. And if you want to know me better, my{" "}
                 <a
-                href = {"/writing"}
+                href = {"https://stanforddaily.com/author/tabaker/"}
                 target = "__blank"
                 className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
