@@ -2,11 +2,11 @@ const userData = {
   githubUsername: "theobaker",
   name: "Theo Baker",
   designation: "Investigations",
-  avatarUrl: "/headshot.jpg",
+  avatarUrl: "/alt_primary_shot.jpg",
   email: "tabsterbaker [at] gmail.com",
   phone: "Available on request",
   address: "Washington, DC | Stanford, CA",
-  currentBook: "Power Failure by Bill Cohan",
+  currentBook: "The Electric Kool-Aid Acid Test by Tom Wolfe",
   home:{
     description:[
       `Hi there! My name is Theo (he/they) and I'm an undergraduate at Stanford University. As an investigative reporter, I've authored a number of national stories — most recently, my reporting into Stanford's billionaire president caused his resignation and made me the youngest ever recipient of the prestigious George Polk Award.`,

@@ -7,7 +7,7 @@ export default function FavouriteProjects() {
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-700">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-5 md:my-10 lg:my-20">
-        <img src={"/press_conference.jpg"} width="550" alt="press conference" />
+        <img src={"/alt_secondary_shot.jpg"} width="550" alt="me, in the middle of laughing, holding one hand out, the other on my laptop" />
         <div className="col-span-1 md:col-span-2">
           {userData.home.description?.map((desc, idx) => (
             <p
@@ -19,7 +19,7 @@ export default function FavouriteProjects() {
           ))}
           </div>
         </header>
-        <Link href="/about">
+        {/* <Link href="/about">
           <a className="w-full mb-20 row-start-2 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex space-x-4 justify-center items-center dark:text-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function FavouriteProjects() {
             </svg>
             <p>Read my bio!</p>
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
