@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "theobaker",
   name: "Theo Baker",
   designation: "Investigations",
-  avatarUrl: "/WCKPoland.jpg",
+  avatarUrl: "/headshot.jpg",
   email: "tabsterbaker [at] gmail.com",
   phone: "Available on request",
   address: "Washington, DC | Stanford, CA",
