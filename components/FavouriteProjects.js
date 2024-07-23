@@ -7,7 +7,7 @@ export default function FavouriteProjects() {
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-700">
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-5 md:my-10 lg:my-20">
-        <img src={"/signature.png"} width="550" alt="signature" />
+        <img src={"/press_conference.jpg"} width="550" alt="press conference" />
         <div className="col-span-1 md:col-span-2">
           {userData.home.description?.map((desc, idx) => (
             <p
