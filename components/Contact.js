@@ -1,18 +1,18 @@
 import React from "react";
 import userData from "@constants/data";
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 export default function Contact() {
-  function sendEmail(e) {
-    e.preventDefault();
+  // function sendEmail(e) {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_id', 'template_id', e.target, 'user_id')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  }
+  //   emailjs.sendForm('service_id', 'template_id', e.target, 'user_id')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // }
   return (
     <section>
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased">

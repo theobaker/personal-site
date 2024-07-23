@@ -36,7 +36,6 @@ var data = __webpack_require__(9536);
 
 
 function FavouriteProjects() {
-    var _userData_home_description;
     return /*#__PURE__*/ jsx_runtime_.jsx("div", {
         className: "bg-[#F1F1F1] -mt-40 dark:bg-gray-700",
         children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
@@ -46,13 +45,13 @@ function FavouriteProjects() {
                     className: "flex flex-col md:flex-row justify-between items-center pt-40 mx-5 md:my-10 lg:my-20",
                     children: [
                         /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                            src: "/signature.png",
+                            src: "/press_conference.jpg",
                             width: "550",
-                            alt: "signature"
+                            alt: "press conference"
                         }),
                         /*#__PURE__*/ jsx_runtime_.jsx("div", {
                             className: "col-span-1 md:col-span-2",
-                            children: (_userData_home_description = data/* default.home.description */.Z.home.description) === null || _userData_home_description === void 0 ? void 0 : _userData_home_description.map((desc, idx)=>/*#__PURE__*/ jsx_runtime_.jsx("p", {
+                            children: data/* default.home.description */.Z.home.description?.map((desc, idx)=>/*#__PURE__*/ jsx_runtime_.jsx("p", {
                                     className: "text-xl max-w-lg text-gray-700 mb-4 dark:text-gray-300 ",
                                     children: desc
                                 }, idx))

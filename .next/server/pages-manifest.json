@@ -1,12 +1,11 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/about": "pages/about.html",
+  "/about": "pages/about.js",
   "/api/hello": "pages/api/hello.js",
-  "/contact": "pages/contact.html",
-  "/experience": "pages/experience.html",
-  "/writing": "pages/writing.html",
-  "/": "pages/index.js",
+  "/contact": "pages/contact.js",
+  "/experience": "pages/experience.js",
+  "/writing": "pages/writing.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
