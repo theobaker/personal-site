@@ -152,7 +152,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form onSubmit={sendEmail} className="form rounded-lg bg-white p-4 flex flex-col">
+          <form className="form rounded-lg bg-white p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
