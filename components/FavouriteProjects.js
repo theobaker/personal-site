@@ -19,7 +19,7 @@ export default function FavouriteProjects() {
             ))}
           </div>
         </header>
-        <Link href="/about">
+        {/* <Link href="/about">
           <a className="w-full mb-20 row-start-2 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex space-x-4 justify-center items-center dark:text-gray-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ export default function FavouriteProjects() {
             </svg>
             <p>Read my bio!</p>
           </a>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
