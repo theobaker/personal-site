@@ -5,18 +5,18 @@ import userData from "@constants/data";
 export default function FavouriteProjects() {
   return (
     <div className="bg-[#F1F1F1] -mt-40 dark:bg-gray-700">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8"> {/* Added responsive padding */}
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-5 sm:pb-15 md:my-10 lg:my-20">
-        <img src={"/alt_secondary_shot.jpg"} width="550" alt="me, in the middle of laughing, holding one hand out, the other on my laptop" />
-        <div className="col-span-1 md:col-span-2">
-          {userData.home.description?.map((desc, idx) => (
-            <p
-              key={idx}
-              className="text-xl max-w-lg text-gray-700 mb-4 sm:pb-15 md:pb-10 dark:text-gray-300 "
-            >
-              {desc}
-            </p>
-          ))}
+          <img src={"/alt_secondary_shot.jpg"} width="550" alt="me, in the middle of laughing, holding one hand out, the other on my laptop" />
+          <div className="col-span-1 md:col-span-2 mt-8 md:mt-0"> {/* Added top margin for spacing on small screens */}
+            {userData.home.description?.map((desc, idx) => (
+              <p
+                key={idx}
+                className="text-xl max-w-lg text-gray-700 mb-4 sm:pb-15 md:pb-10 dark:text-gray-300 "
+              >
+                {desc}
+              </p>
+            ))}
           </div>
         </header>
         <Link href="/about">
