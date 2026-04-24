@@ -25,13 +25,13 @@ export default function BookSection() {
             <p className={styles.bookDescription}>
               Teenagers in Silicon Valley are a commodity. They are plied with excess and access, and taught to cut corners. 
               This book is a chronicle of the students being groomed to rule the world
-              &mdash; and what they're learning from those who already do. It is also the story of the coder-turned-journalist 
-              whose freshman year investigation triggered the resignation of Stanford's president.
+              &mdash; and what they&rsquo;re learning from those who already do. It is also the story of the coder-turned-journalist 
+              whose freshman year investigation triggered the resignation of Stanford&rsquo;s president.
               
             </p>
             <div className={styles.bookCta}>
-              <a href="#" className="btn btn-primary">Pre-Order the Book</a>
-              <a href="#" className="btn btn-secondary">Learn More</a>
+              <a href="https://www.penguinrandomhouse.com/books/760317/how-to-rule-the-world-by-theo-baker/" className="btn btn-primary">Pre-Order the Book</a>
+              <a href="https://www.penguinrandomhouse.com/books/760317/how-to-rule-the-world-by-theo-baker/" className="btn btn-secondary">Learn More</a>
             </div>
             <div className={styles.bookMeta}>
               Penguin Press &middot; 336 pages &middot; May 2026

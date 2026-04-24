@@ -5,7 +5,7 @@ export default function Footer() {
     { href: 'https://x.com/tab_delete', label: 'Twitter' },
     { href: 'https://www.instagram.com/tabsterbaker/', label: 'Instagram' },
     { href: 'https://www.linkedin.com/in/theo-baker/', label: 'LinkedIn' },
-    { href: '#', label: 'Email' },
+    { href: 'mailto:tabsterbaker@gmail.com', label: 'Email' },
   ]
 
   return (

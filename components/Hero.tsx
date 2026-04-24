@@ -17,7 +17,7 @@ export default function Hero() {
             </p>
             <div className={`${styles.personalHeroLinks} fade-up fade-up-9`}>
               <a href="https://www.penguinrandomhouse.com/books/760317/how-to-rule-the-world-by-theo-baker/" className="btn btn-primary">The Book</a>
-              <a href="#about" className="btn-text">About Me &#x2192;</a>
+              <a href="https://www.linkedin.com/in/theo-baker/" className="btn-text">About Me &#x2192;</a>
             </div>
           </div>
           <div className={`${styles.heroPhotoWrapper} fade-up fade-up-10`}>
