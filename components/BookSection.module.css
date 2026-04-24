@@ -1,0 +1,145 @@
+.bookSection {
+  padding: 80px 0;
+  position: relative;
+}
+
+.bookSection::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 2px;
+  background: var(--ink);
+}
+
+.bookSectionGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 120px;
+  align-items: start;
+}
+
+.bookCoverWrapper {
+  position: relative;
+  filter: drop-shadow(4px 4px 0px rgba(0, 0, 0, 0.06)) drop-shadow(8px 8px 0px rgba(0, 0, 0, 0.03));
+}
+
+.bookCover {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bookLabel {
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--red-primary);
+  margin-bottom: 12px;
+}
+
+.bookTitle {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.bookTitle em {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.bookSubtitle {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--mid-gray);
+  margin-bottom: 24px;
+}
+
+.bookDescription {
+  font-size: 17px;
+  line-height: 1.65;
+  color: #333330;
+  max-width: 520px;
+  margin-bottom: 28px;
+}
+
+.bookCta {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+
+.bookMeta {
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  color: var(--warm-gray);
+  line-height: 1.8;
+}
+
+.bookBlurb {
+  border-top: 1px solid var(--rule);
+  margin-top: 28px;
+  padding-top: 20px;
+}
+
+.bookBlurb blockquote {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--mid-gray);
+  margin-bottom: 8px;
+}
+
+.bookBlurb cite {
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  color: var(--warm-gray);
+  font-style: normal;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+@media (max-width: 1023px) {
+  .bookSectionGrid {
+    grid-template-columns: 240px 1fr;
+    gap: 40px;
+  }
+
+  .bookTitle {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 767px) {
+  .bookSection {
+    padding: 48px 0;
+  }
+
+  .bookSectionGrid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .bookCoverWrapper {
+    max-width: 220px;
+  }
+
+  .bookTitle {
+    font-size: 32px;
+  }
+}

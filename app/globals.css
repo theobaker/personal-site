@@ -1,0 +1,163 @@
+:root {
+  --ink: #1A1A18;
+  --newsprint: #F5F0E8;
+  --cream: #FAF7F2;
+  --warm-gray: #A39E93;
+  --mid-gray: #6B6660;
+  --red-primary: #C23023;
+  --red-dark: #9B1B10;
+  --red-light: #E8443A;
+  --blue-note: #2C4A6E;
+  --rule: #D4CFC6;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-source-serif), Georgia, serif;
+  background: var(--cream);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='6' height='6' fill='%23FAF7F2'/%3E%3Crect width='1' height='1' x='0' y='0' fill='%23F3EEE5' opacity='0.4'/%3E%3Crect width='1' height='1' x='3' y='3' fill='%23F3EEE5' opacity='0.25'/%3E%3C/svg%3E");
+}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes infiniteScroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ── REDACTION REVEAL ── */
+@keyframes redactReveal {
+  0% { transform: scaleX(1); }
+  100% { transform: scaleX(0); }
+}
+
+@keyframes redactTextReveal {
+  0%, 40% { color: transparent; }
+  100% { color: inherit; }
+}
+
+@keyframes redactDotReveal {
+  0%, 40% { color: transparent; }
+  100% { color: var(--red-primary); }
+}
+
+.redact {
+  position: relative;
+  display: inline-block;
+  color: transparent;
+  animation: redactTextReveal 0.8s ease forwards;
+}
+
+.redact-dot {
+  animation: redactDotReveal 0.8s ease forwards;
+  animation-delay: inherit;
+}
+
+.redact::after {
+  content: '';
+  position: absolute;
+  inset: 2px -4px;
+  background: var(--ink);
+  transform-origin: right center;
+  animation: redactReveal 0.6s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+  border-radius: 1px;
+}
+
+.redact-1 { animation-delay: 0.6s; }
+.redact-1::after { animation-delay: 0.6s; }
+.redact-2 { animation-delay: 0.72s; }
+.redact-2::after { animation-delay: 0.72s; }
+.redact-3 { animation-delay: 0.84s; }
+.redact-3::after { animation-delay: 0.84s; }
+.redact-4 { animation-delay: 1.0s; }
+.redact-4::after { animation-delay: 1.0s; }
+.redact-5 { animation-delay: 1.12s; }
+.redact-5::after { animation-delay: 1.12s; }
+.redact-6 { animation-delay: 1.24s; }
+.redact-6::after { animation-delay: 1.24s; }
+.redact-7 { animation-delay: 1.36s; }
+.redact-7::after { animation-delay: 1.36s; }
+.redact-8 { animation-delay: 1.48s; }
+.redact-8::after { animation-delay: 1.48s; }
+.redact-9 { animation-delay: 1.60s; }
+.redact-9::after { animation-delay: 1.60s; }
+
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 0.5s ease forwards;
+}
+.fade-up-1 { animation-delay: 0.05s; }
+.fade-up-2 { animation-delay: 0.1s; }
+.fade-up-3 { animation-delay: 0.15s; }
+.fade-up-4 { animation-delay: 0.2s; }
+.fade-up-5 { animation-delay: 0.25s; }
+.fade-up-6 { animation-delay: 0.3s; }
+.fade-up-7 { animation-delay: 0.35s; }
+.fade-up-8 { animation-delay: 1.2s; }
+.fade-up-9 { animation-delay: 1.3s; }
+.fade-up-10 { animation-delay: 1.4s; }
+.fade-up-11 { animation-delay: 2.2s; }
+
+.reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── PAGE ── */
+.page { max-width: 1120px; margin: 0 auto; padding: 0 40px; }
+
+/* ── BUTTONS ── */
+.btn {
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 13px 28px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+.btn-primary { background: var(--red-primary); color: #fff; }
+.btn-primary:hover { background: var(--red-dark); }
+.btn-secondary { background: transparent; color: var(--ink); border: 2px solid var(--ink); }
+.btn-secondary:hover { background: var(--ink); color: var(--cream); }
+
+.btn-text {
+  font-family: var(--font-jetbrains), monospace;
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: none; border: none;
+  color: var(--red-primary);
+  cursor: pointer; text-decoration: none;
+  padding: 0;
+  border-bottom: 1px solid var(--red-primary);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.btn-text:hover { color: var(--red-dark); border-color: var(--red-dark); }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 767px) {
+  .page { padding: 0 20px; }
+}
