@@ -71,7 +71,7 @@ const bottomStories = [
   {
     href: 'https://stanforddaily.com/2022/10/31/stanford-knew-about-the-campus-imposter-for-a-year-he-kept-coming-back/',
     cat: 'Investigation',
-    headline: 'Stanford Knew About the Campus Imposter for a Year. He Kept Coming Back.',
+    headline: 'Stanford Knew About the Campus Imposter for a Year. He Kept Coming Back',
     dek: 'Will Curry pretended to be a student, living in a half-dozen dorms and allegedly harassing students. The university kept quiet.',
     pub: 'The Stanford Daily',
     date: '2022',
