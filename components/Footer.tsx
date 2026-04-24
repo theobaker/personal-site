@@ -24,7 +24,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.footerCopy}>
-          &copy; 2026 Theo Baker.
+          &copy; 2026 Theo Baker
         </div>
       </div>
     </footer>

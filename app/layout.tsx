@@ -34,7 +34,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'theo baker.',
+  title: 'theo baker',
   description: 'Journalist and author. George Polk Award winner. Stanford student studying history and computer science.',
 }
 
