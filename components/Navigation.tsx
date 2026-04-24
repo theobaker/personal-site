@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import styles from './Navigation.module.css'
 
-export default function Navigation() {
+export default function Navigation({ bordered = false }: { bordered?: boolean }) {   
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('')
@@ -41,15 +41,14 @@ export default function Navigation() {
   const navLinks = [
     { href: 'https://www.linkedin.com/in/theo-baker/', label: 'About' },
     { href: 'https://www.penguinrandomhouse.com/books/760317/how-to-rule-the-world-by-theo-baker/', label: 'Book' },
-    { href: '#writing', label: 'Writing' },
+    { href: '/writing', label: 'Writing' },
     // { href: '#speaking', label: 'Speaking' },
   ]
 
   return (
     <>
-      <nav className={`${styles.nav} ${scrolled ? styles.scrolled : ''}`}>
-        <div className={styles.navInner}>
-          <a href="#" className={`${styles.logo} fade-up fade-up-1`}>
+        <nav className={`${styles.nav} ${scrolled || bordered ? styles.scrolled : ''}`}>         <div className={styles.navInner}>
+          <a href="/" className={`${styles.logo} fade-up fade-up-1`}>
             theo baker<span>.</span>
           </a>
           <ul className={styles.navLinks}>

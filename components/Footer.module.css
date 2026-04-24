@@ -1,6 +1,7 @@
 .footer {
   padding: 40px 0 64px;
   background: var(--newsprint);
+  border-top: 2px solid var(--ink);   
 }
 
 .footerInner {
