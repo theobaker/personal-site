@@ -31,7 +31,7 @@ export default function BookSection() {
             </p>
             <div className={styles.bookCta}>
               <a href="https://www.penguinrandomhouse.com/books/760317/how-to-rule-the-world-by-theo-baker/" className="btn btn-primary">Pre-Order the Book</a>
-              <a href="https://www.penguinrandomhouse.com/books/760317/how-to-rule-the-world-by-theo-baker/" className="btn btn-secondary">Learn More</a>
+              <a href="https://www.theatlantic.com/ideas/2026/04/stanford-students-power/686920/?gift=o_0RIxHKOYK2SLe0kAstR8lvRrqydVuEEKAZSp_r36M&utm_source=copy-link&utm_medium=social&utm_campaign=share" className="btn btn-secondary">Read an Excerpt</a>
             </div>
             <div className={styles.bookMeta}>
               Penguin Press &middot; 336 pages &middot; May 2026
