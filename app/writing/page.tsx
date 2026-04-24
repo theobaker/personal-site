@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 const heroStory = {
-  href: '#',
+  href: 'https://www.theatlantic.com/ideas/2026/04/stanford-students-power/686920/?gift=o_0RIxHKOYK2SLe0kAstRySEhvQYa3xQWyGTzI4Fmbg&utm_source=copy-link&utm_medium=social&utm_campaign=share',
   cat: 'Feature · The Atlantic',
   headline: 'The Stanford Inside Stanford',
   dek: (
